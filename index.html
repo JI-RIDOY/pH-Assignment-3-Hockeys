@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <header class=" lg:px-60 py-12 ">
+  <header class=" lg:px-60 lg:py-12 px-25 py-3">
     <nav>
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -32,7 +32,7 @@
               <li><a>Contact</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl">Hockey’s</a>
+          <a class="btn btn-ghost text-xl ml-[-25px]">Hockey<span class="text-red-500">’</span>s</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -51,7 +51,7 @@
                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
           </button>
-          <a class="btn btn-error px-8">Get Ticket</a>
+          <a class="btn btn-error lg:px-8">Get Ticket</a>
         </div>
       </div>
     </nav>
@@ -60,70 +60,87 @@
         <div id="slide1" class="carousel-item relative w-full">
           <img src="Images/1.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" class="btn btn-circle"><i class="fa-solid fa-arrow-right fa-rotate-180" style="color: #ff386a;"></i></a>
+            <a href="#slide4" class="btn btn-circle"><i class="fa-solid fa-arrow-right fa-rotate-180"
+                style="color: #ff386a;"></i></a>
             <a href="#slide2" class="btn btn-circle"><i class="fa-solid fa-arrow-right" style="color: #ff386a;"></i></a>
           </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
           <img src="Images/2.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" class="btn btn-circle"><i class="fa-solid fa-arrow-right fa-rotate-180" style="color: #ff386a;"></i></a>
+            <a href="#slide1" class="btn btn-circle"><i class="fa-solid fa-arrow-right fa-rotate-180"
+                style="color: #ff386a;"></i></a>
             <a href="#slide3" class="btn btn-circle"><i class="fa-solid fa-arrow-right" style="color: #ff386a;"></i></a>
           </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
           <img src="Images/3.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" class="btn btn-circle"><i class="fa-solid fa-arrow-right fa-rotate-180" style="color: #ff386a;"></i></a>
+            <a href="#slide2" class="btn btn-circle"><i class="fa-solid fa-arrow-right fa-rotate-180"
+                style="color: #ff386a;"></i></a>
             <a href="#slide4" class="btn btn-circle"><i class="fa-solid fa-arrow-right" style="color: #ff386a;"></i></a>
           </div>
         </div>
         <div id="slide4" class="carousel-item relative w-full">
           <img src="Images/4.png" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" class="btn btn-circle"><i class="fa-solid fa-arrow-right fa-rotate-180" style="color: #ff386a;"></i></a>
+            <a href="#slide3" class="btn btn-circle"><i class="fa-solid fa-arrow-right fa-rotate-180"
+                style="color: #ff386a;"></i></a>
             <a href="#slide1" class="btn btn-circle"><i class="fa-solid fa-arrow-right" style="color: #ff386a;"></i></a>
           </div>
         </div>
       </div>
     </section>
-    <hr class="mt-[100px] border-dashed border-1 bg-gray-200 dark:bg-gray-700">
+    <hr class="mt-10 lg:mt-[50px] border-dashed border-1 bg-gray-200 dark:bg-gray-700">
   </header>
-  <main class=" lg:px-60 py-5 ">
+  <main class=" lg:px-60 lg:py-5 px-25 py-3">
     <section>
       <div class="text-center">
-        <h1 class="text-4xl">Professional Hockeys Club</h1>
-        <p class="text-base w-[607px] ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+        <h1 class="text-lg lg:text-4xl">Professional Hockeys Club</h1>
+        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing
+          aliquam
           turpis placerat dolor. Purus urna in sit
           nullam proin. </p>
       </div>
-      <hr class="mt-[70px] border-dashed border-1 bg-gray-200 dark:bg-gray-700">
-      <div class="flex justify-center gap-32 mt-16 text-center">
-        <div>
+      <hr class="mt-[50px] border-dashed border-1 bg-gray-200 dark:bg-gray-700">
+      <div class="lg:flex lg:justify-center lg:gap-32 lg:mt-16 lg:text-center text-center mt-4">
+        <div class="mt-5">
           <div class="radial-progress" style="--value:87; color:red;" role="progressbar"><span
               class="text-black	">87%</span></div>
-          <h1 class="text-xl mt-5">Prayer Facility</h1>
-          <p class="text-base mt-5 w-[250px]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <h1 class="text-xl lg:mt-5 mt-1">Prayer Facility</h1>
+          <p class="text-base lg:mt-5 mt-2 lg:w-[250px] w-[300px]">Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
         </div>
-        <div>
+        <div class="mt-5">
           <div class="radial-progress" style="--value:95; color:green;" role="progressbar">95%</div>
-          <h1 class="text-xl mt-5">Experienced Coach</h1>
-          <p class="text-base mt-5 w-[250px]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <h1 class="text-xl lg:mt-5 mt-1">Experienced Coach</h1>
+          <p class="text-base lg:mt-5 mt-2 lg:w-[250px] w-[300px]">Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
         </div>
-        <div>
+        <div class="mt-5">
           <div class="radial-progress" style="--value:90; color:orange;" role="progressbar">90%</div>
-          <h1 class="text-xl mt-5">Senior Player</h1>
-          <p class="text-base mt-5 w-[250px]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <h1 class="text-xl lg:mt-5 mt-1">Senior Player</h1>
+          <p class="text-base lg:mt-5 mt-2 lg:w-[250px] w-[300px]">Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
         </div>
-        <div>
+        <div class="mt-5">
           <div class="radial-progress" style="--value:80; color:blue;" role="progressbar">80%</div>
-          <h1 class="text-xl mt-5">Training Ground</h1>
-          <p class="text-base mt-5 w-[250px]">Amet consectetur. Condimentum dignissim adipiscing .</p>
+          <h1 class="text-xl lg:mt-5 mt-1">Training Ground</h1>
+          <p class="text-base lg:mt-5 mt-2 lg:w-[250px] w-[300px]">Amet consectetur. Condimentum dignissim adipiscing .
+          </p>
         </div>
       </div>
       <hr class="mt-[100px] border-dashed border-1 bg-gray-200 dark:bg-gray-700">
-      <div class="grid grid-flow-col gap-5 mt-9">
-        <div class="card h-[440px] bg-base-100 shadow-xl image-full ">
+      <div class="text-center">
+        <h1 class="text-lg lg:text-4xl lg:mt-12 mt-8">Program Sections</h1>
+        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing
+          aliquam
+          turpis placerat dolor. Purus urna in sit
+          nullam proin. </p>
+      </div>
+      <hr class="mt-10 lg:mt-[50px] border-dashed border-1 bg-gray-200 dark:bg-gray-700">
+      <div class="lg:grid lg:grid-flow-col gap-5 mt-9">
+        <div class="card lg:h-[440px] lg:w-full lg:bg-base-100 relative lg:shadow-xl image-full">
           <figure><img src="Images/2.png" alt="Shoes" /></figure>
           <div class="card-body">
             <h2 class="card-title mt-32">Junior Program</h2>
@@ -135,7 +152,7 @@
             </div>
           </div>
         </div>
-        <div class="card h-[440px] bg-base-100 shadow-gray-50 image-full">
+        <div class="card h-[440px] lg:w-full bg-base-100 shadow-gray-50 image-full">
           <figure><img src="Images/3.png" alt="Shoes" /></figure>
           <div class="card-body">
             <h2 class="card-title mt-32">Teenager Program</h2>
@@ -148,7 +165,7 @@
           </div>
         </div>
       </div>
-      <div class="grid grid-flow-col w-full h-[580px]">
+      <div class="grid lg:grid-flow-col lg:w-full lg:h-[580px]">
         <div class="card mt-6 bg-base-100 shadow-xl image-full">
           <figure><img src="Images/4.png" alt="Shoes" /></figure>
           <div class="card-body">
@@ -166,18 +183,19 @@
     </section>
     <section>
       <div class="text-center">
-        <h1 class="text-4xl mt-16">Our New Products</h1>
-        <p class="text-base w-[607px] ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+        <h1 class="lg:text-4xl lg:mt-16 mt-8 text-2xl">Our New Products</h1>
+        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing
+          aliquam
           turpis placerat dolor. Purus urna in sit
           nullam proin. </p>
       </div>
       <hr class="mt-[70px] border-dashed border-1 bg-gray-200 dark:bg-gray-700">
-      <div class="grid grid-flow-col gap-6 mt-10">
+      <div class="grid lg:grid-flow-col lg:gap-6 lg:mt-10 mt-3">
         <div>
           <div class="space-y-3 drop-shadow-2xl bg-gray-50 mt-5 rounded-2xl">
-            <div class="bg-[#Fff] p-5 flex rounded-2xl">
+            <div class="bg-[#Fff] p-5 lg:flex rounded-2xl">
               <div class="rounded-2xl">
-                <img class="w-[220px]" src="images/5.png" alt="">
+                <img class="lg:w-[220px] w-[287px] h-[202px]" src="images/5.png" alt="">
               </div>
               <div class="mt-2 p-4">
                 <div class="flex justify-between">
@@ -194,10 +212,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <h2 class="font-roboto text-2xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class="font-roboto mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                  <div class="flex justify-between mt-3 py-2 gap-8">
-                    <h1 class="font-roboto text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
+                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
                     <p class="bg-gradient-to-r font-medium">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="inline w-6 h-6">
@@ -214,9 +232,9 @@
         </div>
         <div>
           <div class="space-y-3 drop-shadow-2xl bg-gray-50 mt-5 rounded-2xl">
-            <div class="bg-[#Fff] p-5 flex rounded-2xl">
+            <div class="bg-[#Fff] p-5 lg:flex rounded-2xl">
               <div class="rounded-2xl">
-                <img class="w-[220px]" src="images/6.png" alt="">
+                <img class="lg:w-[220px] w-[287px] h-[202px]" src="images/6.png" alt="">
               </div>
               <div class="mt-2 p-4">
                 <div class="flex justify-between">
@@ -233,90 +251,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <h2 class="font-roboto text-2xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class="font-roboto mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                  <div class="flex justify-between mt-3 py-2 gap-8">
-                    <h1 class="font-roboto text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
-                    <p class="bg-gradient-to-r font-medium">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="inline w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                      </svg>
-                      Delivery Fee : Free
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="grid grid-flow-col gap-6">
-        <div>
-          <div class="space-y-3 drop-shadow-2xl bg-gray-50 mt-5 rounded-2xl">
-            <div class="bg-[#Fff] p-5 flex rounded-2xl">
-              <div class="rounded-2xl">
-                <img class="w-[220px]" src="images/7.png" alt="">
-              </div>
-              <div class="mt-2 p-4">
-                <div class="flex justify-between">
-                  <div>
-                    <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                      5.0</p>
-                  </div>
-                  <div>
-                    <p><i class="fa-solid fa-eye" style="color: #000000;"></i>20</p>
-                  </div>
-                  <div>
-                    <p><i class="fa-solid fa-heart" style="color: #ff0000;"></i>
-                      5.0</p>
-                  </div>
-                </div>
-                <div class="mt-3">
-                  <h2 class="font-roboto text-2xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class="font-roboto mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                  <div class="flex justify-between mt-3 py-2 gap-8">
-                    <h1 class="font-roboto text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
-                    <p class="bg-gradient-to-r font-medium">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="inline w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                      </svg>
-                      Delivery Fee : Free
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="space-y-3 drop-shadow-2xl bg-gray-50 mt-5 rounded-2xl">
-            <div class="bg-[#Fff] p-5 flex rounded-2xl">
-              <div class="rounded-2xl">
-                <img class="w-[220px]" src="images/8.png" alt="">
-              </div>
-              <div class="mt-2 p-4">
-                <div class="flex justify-between">
-                  <div>
-                    <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                      5.0</p>
-                  </div>
-                  <div>
-                    <p><i class="fa-solid fa-eye" style="color: #000000;"></i>20</p>
-                  </div>
-                  <div>
-                    <p><i class="fa-solid fa-heart" style="color: #ff0000;"></i>
-                      5.0</p>
-                  </div>
-                </div>
-                <div class="mt-3">
-                  <h2 class="font-roboto text-2xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class="font-roboto mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                  <div class="flex justify-between mt-3 py-2 gap-8">
-                    <h1 class="font-roboto text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
+                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
                     <p class="bg-gradient-to-r font-medium">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="inline w-6 h-6">
@@ -332,12 +270,12 @@
           </div>
         </div>
       </div>
-      <div class="grid grid-flow-col gap-6">
+      <div class="grid lg:grid-flow-col lg:gap-6">
         <div>
           <div class="space-y-3 drop-shadow-2xl bg-gray-50 mt-5 rounded-2xl">
-            <div class="bg-[#Fff] p-5 flex rounded-2xl">
+            <div class="bg-[#Fff] p-5 lg:flex rounded-2xl">
               <div class="rounded-2xl">
-                <img class="w-[220px]" src="images/9.png" alt="">
+                <img class="lg:w-[220px] w-[287px] h-[202px]" src="images/7.png" alt="">
               </div>
               <div class="mt-2 p-4">
                 <div class="flex justify-between">
@@ -354,10 +292,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <h2 class="font-roboto text-2xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class="font-roboto mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                  <div class="flex justify-between mt-3 py-2 gap-8">
-                    <h1 class="font-roboto text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
+                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
                     <p class="bg-gradient-to-r font-medium">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="inline w-6 h-6">
@@ -374,9 +312,9 @@
         </div>
         <div>
           <div class="space-y-3 drop-shadow-2xl bg-gray-50 mt-5 rounded-2xl">
-            <div class="bg-[#Fff] p-5 flex rounded-2xl">
+            <div class="bg-[#Fff] p-5 lg:flex rounded-2xl">
               <div class="rounded-2xl">
-                <img class="w-[220px]" src="images/10.png" alt="">
+                <img class="lg:w-[220px] w-[287px] h-[202px]" src="images/8.png" alt="">
               </div>
               <div class="mt-2 p-4">
                 <div class="flex justify-between">
@@ -393,10 +331,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <h2 class="font-roboto text-2xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class="font-roboto mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
-                  <div class="flex justify-between mt-3 py-2 gap-8">
-                    <h1 class="font-roboto text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
+                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
                     <p class="bg-gradient-to-r font-medium">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="inline w-6 h-6">
@@ -412,15 +350,187 @@
           </div>
         </div>
       </div>
-      <hr class="mt-[70px] border-dashed border-1 bg-gray-200 dark:bg-gray-700">
+      <div class="grid lg:grid-flow-col lg:gap-6 ">
+        <div>
+          <div class="space-y-3 drop-shadow-2xl bg-gray-50 mt-5 rounded-2xl">
+            <div class="bg-[#Fff] p-5 lg:flex rounded-2xl">
+              <div class="rounded-2xl">
+                <img class="lg:w-[220px] w-[287px] h-[202px]" src="images/9.png" alt="">
+              </div>
+              <div class="mt-2 p-4">
+                <div class="flex justify-between">
+                  <div>
+                    <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      5.0</p>
+                  </div>
+                  <div>
+                    <p><i class="fa-solid fa-eye" style="color: #000000;"></i>20</p>
+                  </div>
+                  <div>
+                    <p><i class="fa-solid fa-heart" style="color: #ff0000;"></i>
+                      5.0</p>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
+                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                    <p class="bg-gradient-to-r font-medium">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="inline w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                      </svg>
+                      Delivery Fee : Free
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="space-y-3 drop-shadow-2xl bg-gray-50 mt-5 rounded-2xl">
+            <div class="bg-[#Fff] p-5 lg:flex rounded-2xl">
+              <div class="rounded-2xl">
+                <img class="lg:w-[220px] w-[287px] h-[202px]" src="images/10.png" alt="">
+              </div>
+              <div class="mt-2 p-4">
+                <div class="flex justify-between">
+                  <div>
+                    <p><i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                      5.0</p>
+                  </div>
+                  <div>
+                    <p><i class="fa-solid fa-eye" style="color: #000000;"></i>20</p>
+                  </div>
+                  <div>
+                    <p><i class="fa-solid fa-heart" style="color: #ff0000;"></i>
+                      5.0</p>
+                  </div>
+                </div>
+                <div class="mt-3">
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
+                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                    <p class="bg-gradient-to-r font-medium">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="inline w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                      </svg>
+                      Delivery Fee : Free
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="lg:mt-[70px] mt-5 border-dashed border-1 bg-gray-200 dark:bg-gray-700">
     </section>
     <section>
       <div class="text-center">
-        <h1 class="text-4xl mt-16">Clients Question</h1>
-        <p class="text-base w-[607px] ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+        <h1 class="lg:text-4xl text-2xl lg:mt-16 mt-5">Clients Question</h1>
+        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing
+          aliquam
           turpis placerat dolor. Purus urna in sit nullam proin.</p>
       </div>
-      <hr class="mt-[70px] border-dashed border-1 bg-gray-200 dark:bg-gray-700">
+      <hr class="lg:mt-[70px] mt-5 border-dashed border-1 bg-gray-200 dark:bg-gray-700">
+      <div class="flex justify-between mt-14 border-gray-300 p-5 bg-white-50 shadow-xl rounded-xl">
+        <div>
+          <img class="w-[441px] h-[470px]" src="Images/11.png" alt="">
+        </div>
+        <div class=" w-[900px]">
+          <div class="collapse collapse-plus border-b-2 mt-2">
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title text-xl font-medium">
+              Our Equipment
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-b-2 mt-2">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Hockey Training
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-b-2 mt-2">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Private Lessons
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-b-2 mt-2">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Ski Touring
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-b-2 mt-2">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Booking
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus border-b-2 mt-2">
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title text-xl font-medium">
+              Pricings
+            </div>
+            <div class="collapse-content">
+              <p>hello</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="lg:mt-[70px] mt-5 border-dashed border-1 bg-gray-200 dark:bg-gray-700">
+    </section>
+    <section>
+      <div class="text-center">
+        <h1 class="lg:text-4xl text-2xl lg:mt-16 mt-5">Get In Touch</h1>
+        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing
+          aliquam
+          turpis placerat dolor. Purus urna in sit nullam proin.</p>
+      </div>
+      <hr class="lg:mt-[70px] mt-5 border-dashed border-1 bg-gray-200 dark:bg-gray-700">
+      <div>
+        <div class="p-6 mt-10 grid gap-6">
+          <div class="bg-[#BCED6D1A] p-16 rounded-xl">
+              <img src="Images/phone.png" alt="">
+            <h2 class="text-xl mt-6">Phone Number : </h2>
+            <h1 class="text-2xl mt-6">(+62) 123-321-543</h1>
+          </div>
+          <div class="bg-[#FDDD5F1A] p-16 rounded-xl">
+            <img src="Images/mail.png" alt="">
+            <h2 class="text-xl mt-6">Email : </h2>
+            <h1 class="text-2xl mt-6">aridoy102536.support@gmail.com</h1>
+          </div>
+          <div class="bg-[#629CF31A] p-16 rounded-xl">
+            <img src="Images/google-maps 1.png" alt="">
+            <h2 class="text-xl mt-6">Location : </h2>
+            <h1 class="text-2xl mt-6">152/1 Mohakhali Wireless Gate</h1>
+          </div>
+        </div>
+        
+      </div>
     </section>
   </main>
   <footer>
