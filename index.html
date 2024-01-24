@@ -10,9 +10,17 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+  .font-style{
+    font-family: 'Manrope', sans-serif;
+  }
+</style>
 </head>
 
-<body>
+<body class="font-style">
   <header class=" lg:px-60 lg:py-12 px-25 py-3">
     <nav>
       <div class="navbar bg-base-100">
@@ -25,22 +33,22 @@
               </svg>
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Home</a></li>
-              <li><a>About</a></li>
-              <li><a>Pages</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Contact</a></li>
+              <li><a><span class="font-bold text-red-500">Home</span></a></li>
+              <li><a><span class="font-bold">About</span></a></li>
+              <li><a><span class="font-bold">Pages</span></a></li>
+              <li><a><span class="font-bold">Blog</span></a></li>
+              <li><a><span class="font-bold">Contact</span></a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost text-xl ml-[-25px]">Hockey<span class="text-red-500">’</span>s</a>
+          <a class="btn btn-ghost ml-[-25px] font-extrabold lg:text-4xl text-xl">Hockey<span class="text-red-500">’</span>s</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Pages</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Contact</a></li>
+            <li><a><span class="font-bold text-red-500">Home</span></a></li>
+            <li><a><span class="font-bold">About</span></a></li>
+            <li><a><span class="font-bold">Pages</span></a></li>
+            <li><a><span class="font-bold">Blog</span></a></li>
+            <li><a><span class="font-bold">Contact</span></a></li>
           </ul>
         </div>
         <div class="navbar-end">
@@ -96,8 +104,8 @@
   <main class=" lg:px-60 lg:py-5 px-25 py-3">
     <section>
       <div class="text-center">
-        <h1 class="text-lg lg:text-4xl">Professional Hockeys Club</h1>
-        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing
+        <h1 class="text-lg lg:text-4xl font-extrabold	">Professional Hockeys Club</h1>
+        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5 text-sm">Dit amet consectetur. Condimentum dignissim adipiscing
           aliquam
           turpis placerat dolor. Purus urna in sit
           nullam proin. </p>
@@ -107,33 +115,33 @@
         <div class="mt-5">
           <div class="radial-progress" style="--value:87; color:red;" role="progressbar"><span
               class="text-black	">87%</span></div>
-          <h1 class="text-xl lg:mt-5 mt-1">Prayer Facility</h1>
-          <p class="text-base lg:mt-5 mt-2 lg:w-[250px] w-[300px]">Amet consectetur. Condimentum dignissim adipiscing .
+          <h1 class="font-semibold lg:mt-5 mt-1">Prayer Facility</h1>
+          <p class="text-sm lg:mt-5 mt-2 lg:w-[250px] w-[300px] font-normal">Amet consectetur. Condimentum dignissim adipiscing .
           </p>
         </div>
         <div class="mt-5">
           <div class="radial-progress" style="--value:95; color:green;" role="progressbar">95%</div>
-          <h1 class="text-xl lg:mt-5 mt-1">Experienced Coach</h1>
-          <p class="text-base lg:mt-5 mt-2 lg:w-[250px] w-[300px]">Amet consectetur. Condimentum dignissim adipiscing .
+          <h1 class="font-semibold lg:mt-5 mt-1">Experienced Coach</h1>
+          <p class="text-sm lg:mt-5 mt-2 lg:w-[250px] w-[300px] font-normal">Amet consectetur. Condimentum dignissim adipiscing .
           </p>
         </div>
         <div class="mt-5">
           <div class="radial-progress" style="--value:90; color:orange;" role="progressbar">90%</div>
-          <h1 class="text-xl lg:mt-5 mt-1">Senior Player</h1>
-          <p class="text-base lg:mt-5 mt-2 lg:w-[250px] w-[300px]">Amet consectetur. Condimentum dignissim adipiscing .
+          <h1 class="font-semibold lg:mt-5 mt-1">Senior Player</h1>
+          <p class="text-sm lg:mt-5 mt-2 lg:w-[250px] w-[300px] font-normal">Amet consectetur. Condimentum dignissim adipiscing .
           </p>
         </div>
         <div class="mt-5">
           <div class="radial-progress" style="--value:80; color:blue;" role="progressbar">80%</div>
-          <h1 class="text-xl lg:mt-5 mt-1">Training Ground</h1>
-          <p class="text-base lg:mt-5 mt-2 lg:w-[250px] w-[300px]">Amet consectetur. Condimentum dignissim adipiscing .
+          <h1 class="font-semibold lg:mt-5 mt-1">Training Ground</h1>
+          <p class="text-sm lg:mt-5 mt-2 lg:w-[250px] w-[300px] font-normal">Amet consectetur. Condimentum dignissim adipiscing .
           </p>
         </div>
       </div>
       <hr class="mt-[100px] border-dashed border-1 bg-gray-200 dark:bg-gray-700">
       <div class="text-center">
-        <h1 class="text-lg lg:text-4xl lg:mt-12 mt-8">Program Sections</h1>
-        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing
+        <h1 class="text-lg lg:text-4xl lg:mt-12 mt-8 font-extrabold	">Program Sections</h1>
+        <p class="text-sm lg:w-[607px] lg:ml-[410px] mt-5 font-normal">Dit amet consectetur. Condimentum dignissim adipiscing
           aliquam
           turpis placerat dolor. Purus urna in sit
           nullam proin. </p>
@@ -143,8 +151,8 @@
         <div class="card lg:h-[440px] lg:w-full lg:bg-base-100 relative lg:shadow-xl image-full">
           <figure><img src="Images/2.png" alt="Shoes" /></figure>
           <div class="card-body">
-            <h2 class="card-title mt-32">Junior Program</h2>
-            <p class="w-[495px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+            <h2 class="card-title mt-32 font-extrabold">Junior Program</h2>
+            <p class="w-[495px] font-bold text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
             </p>
             <div class="card-actions justify-start">
@@ -155,8 +163,8 @@
         <div class="card h-[440px] lg:w-full bg-base-100 shadow-gray-50 image-full">
           <figure><img src="Images/3.png" alt="Shoes" /></figure>
           <div class="card-body">
-            <h2 class="card-title mt-32">Teenager Program</h2>
-            <p class="w-[495px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+            <h2 class="card-title mt-32 font-extrabold">Teenager Program</h2>
+            <p class="w-[495px] font-bold">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
             </p>
             <div class="card-actions justify-start">
@@ -169,8 +177,8 @@
         <div class="card mt-6 bg-base-100 shadow-xl image-full">
           <figure><img src="Images/4.png" alt="Shoes" /></figure>
           <div class="card-body">
-            <h2 class="card-title mt-52">Professional Program</h2>
-            <p class="w-[495px]">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+            <h2 class="card-title mt-52 font-extrabold">Professional Program</h2>
+            <p class="w-[495px] font-bold">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.
             </p>
             <div class="card-actions justify-start">
@@ -183,8 +191,8 @@
     </section>
     <section>
       <div class="text-center">
-        <h1 class="lg:text-4xl lg:mt-16 mt-8 text-2xl">Our New Products</h1>
-        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing
+        <h1 class="lg:text-4xl lg:mt-16 mt-8 text-2xl font-extrabold">Our New Products</h1>
+        <p class="text-sm lg:w-[607px] lg:ml-[410px] mt-5 font-normal">Dit amet consectetur. Condimentum dignissim adipiscing
           aliquam
           turpis placerat dolor. Purus urna in sit
           nullam proin. </p>
@@ -212,10 +220,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-extrabold">World Cup Flags Football</h2>
+                  <p class=" mt-3 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
                   <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
-                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-extrabold">Price - $22.00</h1>
                     <p class="bg-gradient-to-r font-medium">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="inline w-6 h-6">
@@ -251,10 +259,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-extrabold">World Cup Flags Football</h2>
+                  <p class=" mt-3 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
                   <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
-                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-extrabold">Price - $22.00</h1>
                     <p class="bg-gradient-to-r font-medium">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="inline w-6 h-6">
@@ -292,10 +300,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-extrabold">World Cup Flags Football</h2>
+                  <p class=" mt-3 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
                   <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
-                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-extrabold">Price - $22.00</h1>
                     <p class="bg-gradient-to-r font-medium">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="inline w-6 h-6">
@@ -331,10 +339,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-extrabold">World Cup Flags Football</h2>
+                  <p class=" mt-3 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
                   <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
-                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-extrabold">Price - $22.00</h1>
                     <p class="bg-gradient-to-r font-medium">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="inline w-6 h-6">
@@ -372,10 +380,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-extrabold">World Cup Flags Football</h2>
+                  <p class=" mt-3 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
                   <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
-                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-extrabold">Price - $22.00</h1>
                     <p class="bg-gradient-to-r font-medium">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="inline w-6 h-6">
@@ -411,10 +419,10 @@
                   </div>
                 </div>
                 <div class="mt-3">
-                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-bold">World Cup Flags Football</h2>
-                  <p class=" mt-3">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+                  <h2 class=" lg:text-2xl text-xl text-[#363958] font-extrabold">World Cup Flags Football</h2>
+                  <p class=" mt-3 font-medium">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
                   <div class="lg:flex justify-between mt-3 lg:py-2 lg:gap-8">
-                    <h1 class=" lg:text-2xl text-[#FF4240] font-bold">Price - $22.00</h1>
+                    <h1 class=" lg:text-2xl text-[#FF4240] font-extrabold">Price - $22.00</h1>
                     <p class="bg-gradient-to-r font-medium">
                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="inline w-6 h-6">
@@ -434,20 +442,20 @@
     </section>
     <section>
       <div class="text-center">
-        <h1 class="lg:text-4xl text-2xl lg:mt-16 mt-5">Clients Question</h1>
-        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing
+        <h1 class="lg:text-4xl text-2xl lg:mt-16 mt-5 font-extrabold">Clients Question</h1>
+        <p class="text-sm lg:w-[607px] lg:ml-[410px] mt-5 font-normal">Dit amet consectetur. Condimentum dignissim adipiscing
           aliquam
           turpis placerat dolor. Purus urna in sit nullam proin.</p>
       </div>
       <hr class="lg:mt-[70px] mt-5 border-dashed border-1 bg-gray-200 dark:bg-gray-700">
-      <div class="flex justify-between mt-14 border-gray-300 p-5 bg-white-50 shadow-xl rounded-xl">
+      <div class="lg:flex justify-between lg:mt-14 mt-6 border-gray-300 p-5 bg-white-50 shadow-xl rounded-xl">
         <div>
-          <img class="w-[441px] h-[470px]" src="Images/11.png" alt="">
+          <img class="lg:w-[441px] lg:h-[470px]" src="Images/11.png" alt="">
         </div>
-        <div class=" w-[900px]">
+        <div class=" lg:w-[900px]">
           <div class="collapse collapse-plus border-b-2 mt-2">
             <input type="radio" name="my-accordion-3" checked="checked" />
-            <div class="collapse-title text-xl font-medium">
+            <div class="collapse-title text-xl font-bold">
               Our Equipment
             </div>
             <div class="collapse-content">
@@ -456,7 +464,7 @@
           </div>
           <div class="collapse collapse-plus border-b-2 mt-2">
             <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title text-xl font-medium">
+            <div class="collapse-title text-xl font-bold	">
               Hockey Training
             </div>
             <div class="collapse-content">
@@ -465,7 +473,7 @@
           </div>
           <div class="collapse collapse-plus border-b-2 mt-2">
             <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title text-xl font-medium">
+            <div class="collapse-title text-xl font-bold	">
               Private Lessons
             </div>
             <div class="collapse-content">
@@ -474,7 +482,7 @@
           </div>
           <div class="collapse collapse-plus border-b-2 mt-2">
             <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title text-xl font-medium">
+            <div class="collapse-title text-xl font-bold	">
               Ski Touring
             </div>
             <div class="collapse-content">
@@ -483,7 +491,7 @@
           </div>
           <div class="collapse collapse-plus border-b-2 mt-2">
             <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title text-xl font-medium">
+            <div class="collapse-title text-xl font-bold	">
               Booking
             </div>
             <div class="collapse-content">
@@ -492,7 +500,7 @@
           </div>
           <div class="collapse collapse-plus border-b-2 mt-2">
             <input type="radio" name="my-accordion-3" />
-            <div class="collapse-title text-xl font-medium">
+            <div class="collapse-title text-xl font-bold	">
               Pricings
             </div>
             <div class="collapse-content">
@@ -505,36 +513,95 @@
     </section>
     <section>
       <div class="text-center">
-        <h1 class="lg:text-4xl text-2xl lg:mt-16 mt-5">Get In Touch</h1>
-        <p class="text-base lg:w-[607px] lg:ml-[410px] mt-5">Dit amet consectetur. Condimentum dignissim adipiscing
+        <h1 class="lg:text-4xl text-2xl lg:mt-16 mt-5 font-extrabold">Get In Touch</h1>
+        <p class="text-sm lg:w-[607px] lg:ml-[410px] mt-5 font-normal">Dit amet consectetur. Condimentum dignissim adipiscing
           aliquam
           turpis placerat dolor. Purus urna in sit nullam proin.</p>
       </div>
       <hr class="lg:mt-[70px] mt-5 border-dashed border-1 bg-gray-200 dark:bg-gray-700">
-      <div>
-        <div class="p-6 mt-10 grid gap-6">
-          <div class="bg-[#BCED6D1A] p-16 rounded-xl">
+      <div class="lg:flex lg:justify-between ">
+        <div class="lg:p-6 mt-10 grid gap-6  border-gray-300 p-5 bg-white-50 shadow-xl rounded-xl">
+          <div class="bg-[#BCED6D1A] lg:p-10 p-5 rounded-xl">
               <img src="Images/phone.png" alt="">
-            <h2 class="text-xl mt-6">Phone Number : </h2>
-            <h1 class="text-2xl mt-6">(+62) 123-321-543</h1>
+            <h2 class="lg:text-base lg:mt-6 font-bold">Phone Number : </h2>
+            <h1 class="lg:text-xl lg:mt-6 font-extrabold">(+62) 123-321-543</h1>
           </div>
-          <div class="bg-[#FDDD5F1A] p-16 rounded-xl">
+          <div class="bg-[#FDDD5F1A] lg:p-10 p-5 rounded-xl">
             <img src="Images/mail.png" alt="">
-            <h2 class="text-xl mt-6">Email : </h2>
-            <h1 class="text-2xl mt-6">aridoy102536.support@gmail.com</h1>
+            <h2 class="lg:text-base lg:mt-6 font-bold">Email : </h2>
+            <h1 class="lg:text-xl lg:mt-6 font-extrabold	">aridoy102536.support@gmail.com</h1>
           </div>
-          <div class="bg-[#629CF31A] p-16 rounded-xl">
+          <div class="bg-[#629CF31A] lg:p-10 p-5 rounded-xl">
             <img src="Images/google-maps 1.png" alt="">
-            <h2 class="text-xl mt-6">Location : </h2>
-            <h1 class="text-2xl mt-6">152/1 Mohakhali Wireless Gate</h1>
+            <h2 class="lg:text-base lg:mt-6 font-bold">Location : </h2>
+            <h1 class="lg:text-xl lg:mt-6 font-extrabold	">152/1 Mohakhali Wireless Gate</h1>
           </div>
         </div>
-        
+        <div class="grid lg:grid-cols-2 gap-1 mt-10 lg:p-6 lg:w-[800px] gap-y-px	border-gray-300 p-5 bg-white-50 shadow-xl rounded-xl">
+            <div>
+              <p class="font-bold">Your Name</p>
+              <input type="text" placeholder="Enter your full name" class="input input-bordered lg:w-[345px] w-[280px] h-[70px] bg-gray-100 border-none"/>
+            </div>
+            <div>
+              <p class="font-bold">Your Email</p>
+              <input type="text" placeholder="Enter your email" class="input input-bordered lg:w-[345px] w-[280px] h-[70px] bg-gray-100 border-none"/>
+          </div>
+            <div>
+              <p class="font-bold">Subject</p>
+              <input type="text" placeholder="Enter your subject" class="input input-bordered lg:w-[345px] w-[280px] h-[70px] bg-gray-100 border-none"/>
+            </div>
+            <div>
+              <p class="font-bold">Phone Number</p>
+              <input type="text" placeholder="Enter your phone number" class="input input-bordered lg:w-[345px] w-[280px] h-[70px] bg-gray-100 border-none"/>
+            </div>
+          <div>
+            <p class="font-bold">Message</p>
+            <textarea class="textarea textarea-bordered input input-bordered lg:w-[730px] w-[280px] lg:h-[400px] h-[200px] bg-gray-100 border-none" placeholder="Write your message"></textarea>
+            <button class="btn btn-error lg:w-[730px] w-[280px] h-3 mt-6">Send Message</button>
+            <div class="text-center p-6 lg:mr-[-355px]  bg-gray-100 border-none mt-6 rounded-xl">
+              <h1 class="font-extrabold">Social Media</h1>
+              <div class="mt-2">
+                <i class="fa-brands fa-x-twitter mr-2 ml-2"></i>
+                <i class="fa-brands fa-facebook mr-2"></i>
+                <i class="fa-brands fa-instagram mr-2"></i>
+                <i class="fa-brands fa-github mr-2"></i>
+              </div>
+            </div>
+          </div>
       </div>
+    </div>
     </section>
   </main>
-  <footer>
-
+    <footer class="footer p-10 bg-[#131318] text-neutral-content lg:px-60 lg:py-24 px-25 py-10 mt-10">
+      <aside>
+        <i class="fa-solid fa-trophy fa-2xl"></i><br>
+        <h1 class="font-extrabold text-4xl">Get In Touch</h1>
+        <p>Dit amet consectetur. Condimentum <br/>adipiscing aliquam turpis placerat dolor.Purus urna in sit nullam proin.</p>
+        <h1><i class="fa-regular fa-envelope mt-6" style="color: #ff0000;"></i><br>aridoy102536.support@gmail.com</h1>
+        <h1><i class="fa-solid fa-phone" style="color: #ff0000;"></i><br>(+62) 123-321-543</h1>
+      </aside> 
+      <nav class="grid grid-flow-col lg:gap-48 gap-4 lg:grid-rows-none grid-rows-2">
+        <nav class="grid text-center">
+          <header class="footer-title">Services</header> 
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </nav> 
+        <nav class="grid text-center lg:ml-[0px] ml-[70px]">
+          <header class="footer-title">Legal</header> 
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </nav> 
+      <nav class="grid text-center">
+        <header class="footer-title">Company</header> 
+        <a class="link link-hover">About us</a>
+        <a class="link link-hover">Contact</a>
+        <a class="link link-hover">Jobs</a>
+        <a class="link link-hover">Press kit</a>
+        </nav>
+      </nav>
   </footer>
 </body>
 
